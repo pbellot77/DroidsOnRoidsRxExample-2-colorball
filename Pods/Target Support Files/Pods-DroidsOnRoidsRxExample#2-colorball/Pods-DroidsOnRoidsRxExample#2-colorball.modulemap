@@ -1,0 +1,6 @@
+framework module Pods_DroidsOnRoidsRxExample_2_colorball {
+  umbrella header "Pods-DroidsOnRoidsRxExample#2-colorball-umbrella.h"
+
+  export *
+  module * { export * }
+}

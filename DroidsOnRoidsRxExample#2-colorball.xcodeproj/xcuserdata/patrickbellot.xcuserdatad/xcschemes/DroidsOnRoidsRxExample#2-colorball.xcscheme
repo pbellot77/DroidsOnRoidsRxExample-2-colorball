@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BA984C251E1C024F00D5A796"
+               BuildableName = "DroidsOnRoidsRxExample#2-colorball.app"
+               BlueprintName = "DroidsOnRoidsRxExample#2-colorball"
+               ReferencedContainer = "container:DroidsOnRoidsRxExample#2-colorball.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BA984C391E1C024F00D5A796"
+               BuildableName = "DroidsOnRoidsRxExample#2-colorballTests.xctest"
+               BlueprintName = "DroidsOnRoidsRxExample#2-colorballTests"
+               ReferencedContainer = "container:DroidsOnRoidsRxExample#2-colorball.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BA984C441E1C024F00D5A796"
+               BuildableName = "DroidsOnRoidsRxExample#2-colorballUITests.xctest"
+               BlueprintName = "DroidsOnRoidsRxExample#2-colorballUITests"
+               ReferencedContainer = "container:DroidsOnRoidsRxExample#2-colorball.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BA984C251E1C024F00D5A796"
+            BuildableName = "DroidsOnRoidsRxExample#2-colorball.app"
+            BlueprintName = "DroidsOnRoidsRxExample#2-colorball"
+            ReferencedContainer = "container:DroidsOnRoidsRxExample#2-colorball.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BA984C251E1C024F00D5A796"
+            BuildableName = "DroidsOnRoidsRxExample#2-colorball.app"
+            BlueprintName = "DroidsOnRoidsRxExample#2-colorball"
+            ReferencedContainer = "container:DroidsOnRoidsRxExample#2-colorball.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BA984C251E1C024F00D5A796"
+            BuildableName = "DroidsOnRoidsRxExample#2-colorball.app"
+            BlueprintName = "DroidsOnRoidsRxExample#2-colorball"
+            ReferencedContainer = "container:DroidsOnRoidsRxExample#2-colorball.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

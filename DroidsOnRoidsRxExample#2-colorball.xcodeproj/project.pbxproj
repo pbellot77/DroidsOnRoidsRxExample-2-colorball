@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28767BCA58FAFD38EF9BE841 /* Pods_DroidsOnRoidsRxExample_2_colorballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360FBFF652D459AC8BA91AFA /* Pods_DroidsOnRoidsRxExample_2_colorballUITests.framework */; };
+		B65E478FF5607B8306206726 /* Pods_DroidsOnRoidsRxExample_2_colorballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED5606411BB2908F03F5060 /* Pods_DroidsOnRoidsRxExample_2_colorballTests.framework */; };
 		BA984C2A1E1C024F00D5A796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984C291E1C024F00D5A796 /* AppDelegate.swift */; };
 		BA984C2C1E1C024F00D5A796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984C2B1E1C024F00D5A796 /* ViewController.swift */; };
 		BA984C2F1E1C024F00D5A796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984C2D1E1C024F00D5A796 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		BA984C341E1C024F00D5A796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA984C321E1C024F00D5A796 /* LaunchScreen.storyboard */; };
 		BA984C3F1E1C024F00D5A796 /* DroidsOnRoidsRxExample_2_colorballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984C3E1E1C024F00D5A796 /* DroidsOnRoidsRxExample_2_colorballTests.swift */; };
 		BA984C4A1E1C024F00D5A796 /* DroidsOnRoidsRxExample_2_colorballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984C491E1C024F00D5A796 /* DroidsOnRoidsRxExample_2_colorballUITests.swift */; };
+		BA984C581E1C075D00D5A796 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA984C571E1C075D00D5A796 /* CircleViewModel.swift */; };
+		F101D678998487BA3D5BD9CF /* Pods_DroidsOnRoidsRxExample_2_colorball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4831C1108FA32A33DEED742 /* Pods_DroidsOnRoidsRxExample_2_colorball.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23ED97CF56AD40239B92E74C /* Pods-DroidsOnRoidsRxExample#2-colorball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#2-colorball.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorball/Pods-DroidsOnRoidsRxExample#2-colorball.release.xcconfig"; sourceTree = "<group>"; };
+		360FBFF652D459AC8BA91AFA /* Pods_DroidsOnRoidsRxExample_2_colorballUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_2_colorballUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		597CB7D1FF7804C37EA5AD80 /* Pods-DroidsOnRoidsRxExample#2-colorballTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#2-colorballTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballTests/Pods-DroidsOnRoidsRxExample#2-colorballTests.release.xcconfig"; sourceTree = "<group>"; };
+		89C61604B68F211A665BA84C /* Pods-DroidsOnRoidsRxExample#2-colorball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#2-colorball.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorball/Pods-DroidsOnRoidsRxExample#2-colorball.debug.xcconfig"; sourceTree = "<group>"; };
+		8B2227756D42E3A7569CF7E3 /* Pods-DroidsOnRoidsRxExample#2-colorballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#2-colorballTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballTests/Pods-DroidsOnRoidsRxExample#2-colorballTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC76766A3C5A732B1485E99 /* Pods-DroidsOnRoidsRxExample#2-colorballUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#2-colorballUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballUITests/Pods-DroidsOnRoidsRxExample#2-colorballUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4831C1108FA32A33DEED742 /* Pods_DroidsOnRoidsRxExample_2_colorball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_2_colorball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA984C261E1C024F00D5A796 /* DroidsOnRoidsRxExample#2-colorball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DroidsOnRoidsRxExample#2-colorball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA984C291E1C024F00D5A796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA984C2B1E1C024F00D5A796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		BA984C451E1C024F00D5A796 /* DroidsOnRoidsRxExample#2-colorballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DroidsOnRoidsRxExample#2-colorballUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA984C491E1C024F00D5A796 /* DroidsOnRoidsRxExample_2_colorballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroidsOnRoidsRxExample_2_colorballUITests.swift; sourceTree = "<group>"; };
 		BA984C4B1E1C024F00D5A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA984C571E1C075D00D5A796 /* CircleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
+		C827AFC68DEC5CC3413B6E8A /* Pods-DroidsOnRoidsRxExample#2-colorballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroidsOnRoidsRxExample#2-colorballUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballUITests/Pods-DroidsOnRoidsRxExample#2-colorballUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CED5606411BB2908F03F5060 /* Pods_DroidsOnRoidsRxExample_2_colorballTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroidsOnRoidsRxExample_2_colorballTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F101D678998487BA3D5BD9CF /* Pods_DroidsOnRoidsRxExample_2_colorball.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65E478FF5607B8306206726 /* Pods_DroidsOnRoidsRxExample_2_colorballTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28767BCA58FAFD38EF9BE841 /* Pods_DroidsOnRoidsRxExample_2_colorballUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037CB88BDC35DB1F26E603C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89C61604B68F211A665BA84C /* Pods-DroidsOnRoidsRxExample#2-colorball.debug.xcconfig */,
+				23ED97CF56AD40239B92E74C /* Pods-DroidsOnRoidsRxExample#2-colorball.release.xcconfig */,
+				8B2227756D42E3A7569CF7E3 /* Pods-DroidsOnRoidsRxExample#2-colorballTests.debug.xcconfig */,
+				597CB7D1FF7804C37EA5AD80 /* Pods-DroidsOnRoidsRxExample#2-colorballTests.release.xcconfig */,
+				C827AFC68DEC5CC3413B6E8A /* Pods-DroidsOnRoidsRxExample#2-colorballUITests.debug.xcconfig */,
+				9AC76766A3C5A732B1485E99 /* Pods-DroidsOnRoidsRxExample#2-colorballUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42B478575A86AB0183061B3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4831C1108FA32A33DEED742 /* Pods_DroidsOnRoidsRxExample_2_colorball.framework */,
+				CED5606411BB2908F03F5060 /* Pods_DroidsOnRoidsRxExample_2_colorballTests.framework */,
+				360FBFF652D459AC8BA91AFA /* Pods_DroidsOnRoidsRxExample_2_colorballUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA984C1D1E1C024F00D5A796 = {
 			isa = PBXGroup;
 			children = (
@@ -81,8 +121,13 @@
 				BA984C3D1E1C024F00D5A796 /* DroidsOnRoidsRxExample#2-colorballTests */,
 				BA984C481E1C024F00D5A796 /* DroidsOnRoidsRxExample#2-colorballUITests */,
 				BA984C271E1C024F00D5A796 /* Products */,
+				037CB88BDC35DB1F26E603C7 /* Pods */,
+				42B478575A86AB0183061B3A /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 1;
 		};
 		BA984C271E1C024F00D5A796 /* Products */ = {
 			isa = PBXGroup;
@@ -99,6 +144,7 @@
 			children = (
 				BA984C291E1C024F00D5A796 /* AppDelegate.swift */,
 				BA984C2B1E1C024F00D5A796 /* ViewController.swift */,
+				BA984C571E1C075D00D5A796 /* CircleViewModel.swift */,
 				BA984C2D1E1C024F00D5A796 /* Main.storyboard */,
 				BA984C301E1C024F00D5A796 /* Assets.xcassets */,
 				BA984C321E1C024F00D5A796 /* LaunchScreen.storyboard */,
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984C4E1E1C024F00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#2-colorball" */;
 			buildPhases = (
+				34C9C7977B8ED5A5B5CB899B /* [CP] Check Pods Manifest.lock */,
 				BA984C221E1C024F00D5A796 /* Sources */,
 				BA984C231E1C024F00D5A796 /* Frameworks */,
 				BA984C241E1C024F00D5A796 /* Resources */,
+				A6F5D1758598FCE99A17C81D /* [CP] Embed Pods Frameworks */,
+				39A16F1CF251CD0A480D94E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984C511E1C024F00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#2-colorballTests" */;
 			buildPhases = (
+				FDD23E8984553730CFEE7BBB /* [CP] Check Pods Manifest.lock */,
 				BA984C361E1C024F00D5A796 /* Sources */,
 				BA984C371E1C024F00D5A796 /* Frameworks */,
 				BA984C381E1C024F00D5A796 /* Resources */,
+				02A5334FEF09D35D91D2888F /* [CP] Embed Pods Frameworks */,
+				5AB448FE819B3C29E93BD2EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA984C541E1C024F00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#2-colorballUITests" */;
 			buildPhases = (
+				CA3229FD274EEEF285A8E036 /* [CP] Check Pods Manifest.lock */,
 				BA984C411E1C024F00D5A796 /* Sources */,
 				BA984C421E1C024F00D5A796 /* Frameworks */,
 				BA984C431E1C024F00D5A796 /* Resources */,
+				9F7547FB1CA4A322E6A14923 /* [CP] Embed Pods Frameworks */,
+				376254F99FE7BCE9AC2B152D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +312,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02A5334FEF09D35D91D2888F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballTests/Pods-DroidsOnRoidsRxExample#2-colorballTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34C9C7977B8ED5A5B5CB899B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		376254F99FE7BCE9AC2B152D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballUITests/Pods-DroidsOnRoidsRxExample#2-colorballUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39A16F1CF251CD0A480D94E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorball/Pods-DroidsOnRoidsRxExample#2-colorball-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB448FE819B3C29E93BD2EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballTests/Pods-DroidsOnRoidsRxExample#2-colorballTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7547FB1CA4A322E6A14923 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorballUITests/Pods-DroidsOnRoidsRxExample#2-colorballUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F5D1758598FCE99A17C81D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroidsOnRoidsRxExample#2-colorball/Pods-DroidsOnRoidsRxExample#2-colorball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3229FD274EEEF285A8E036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD23E8984553730CFEE7BBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA984C221E1C024F00D5A796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA984C581E1C075D00D5A796 /* CircleViewModel.swift in Sources */,
 				BA984C2C1E1C024F00D5A796 /* ViewController.swift in Sources */,
 				BA984C2A1E1C024F00D5A796 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +605,7 @@
 		};
 		BA984C4F1E1C024F00D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C61604B68F211A665BA84C /* Pods-DroidsOnRoidsRxExample#2-colorball.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -424,6 +619,7 @@
 		};
 		BA984C501E1C024F00D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ED97CF56AD40239B92E74C /* Pods-DroidsOnRoidsRxExample#2-colorball.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -437,6 +633,7 @@
 		};
 		BA984C521E1C024F00D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2227756D42E3A7569CF7E3 /* Pods-DroidsOnRoidsRxExample#2-colorballTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +649,7 @@
 		};
 		BA984C531E1C024F00D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597CB7D1FF7804C37EA5AD80 /* Pods-DroidsOnRoidsRxExample#2-colorballTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +665,7 @@
 		};
 		BA984C551E1C024F00D5A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C827AFC68DEC5CC3413B6E8A /* Pods-DroidsOnRoidsRxExample#2-colorballUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -481,6 +680,7 @@
 		};
 		BA984C561E1C024F00D5A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC76766A3C5A732B1485E99 /* Pods-DroidsOnRoidsRxExample#2-colorballUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BR4H78C3XC;
@@ -512,6 +712,7 @@
 				BA984C501E1C024F00D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA984C511E1C024F00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#2-colorballTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +721,7 @@
 				BA984C531E1C024F00D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA984C541E1C024F00D5A796 /* Build configuration list for PBXNativeTarget "DroidsOnRoidsRxExample#2-colorballUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +730,7 @@
 				BA984C561E1C024F00D5A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

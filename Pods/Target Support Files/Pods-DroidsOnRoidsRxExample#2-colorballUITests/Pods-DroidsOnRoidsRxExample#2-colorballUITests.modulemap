@@ -1,0 +1,6 @@
+framework module Pods_DroidsOnRoidsRxExample_2_colorballUITests {
+  umbrella header "Pods-DroidsOnRoidsRxExample#2-colorballUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
