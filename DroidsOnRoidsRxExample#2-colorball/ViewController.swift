@@ -60,7 +60,5 @@ class ViewController: UIViewController {
 			self.circleView.center = location
 		}
 	}
-
 	
 } // End of class
-
