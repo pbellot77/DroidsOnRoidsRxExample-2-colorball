@@ -30,8 +30,10 @@ class ViewController: UIViewController {
 		circleView.backgroundColor = UIColor.green
 		view.addSubview(circleView)
 		
+		// reference to ViewModel
 		circleViewModel = CircleViewModel()
 		
+		// Rx stack
 		circleView
 			.rx.observe(CGPoint.self, "center")
 			.bindTo(circleViewModel.centerVariable)
@@ -47,7 +49,7 @@ class ViewController: UIViewController {
 					}
 				}
 			})
-			.addDisposableTo(disposeBag)
+			.addDisposableTo(disposeBag) // don't forget the dispose bag!!!
 		
 		// Add gesture recognizer
 		let gestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(circleMoved(recognizer:)))
